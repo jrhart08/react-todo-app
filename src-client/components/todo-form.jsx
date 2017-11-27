@@ -8,8 +8,6 @@ export default function TodoForm({ addTodo }) {
     inputElem.value = ''
   }
 
-  const formClass = condition ? 'class1' : 'class2'
-
   return (
     <form onSubmit={onSubmit}>
       <div className="input-group input-group-lg">
